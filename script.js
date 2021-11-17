@@ -62,16 +62,16 @@ const dynamicCard = (url) => {
     return `<img src="${url}" alt="img" />
                             <div class="content">
                                 <div class="vote">
-                                    <img src="/assets/up-icon.svg" alt="up-vote" />
+                                    <img src="./assets/up-icon.svg" alt="up-vote" />
                                     <span>${randomNumber(89, 999)}</span>
-                                    <img src="/assets/down-icon.svg" alt="down-vote" />
+                                    <img src="./assets/down-icon.svg" alt="down-vote" />
                                 </div>
                                 <div class="comment">
-                                    <img src="/assets/msg-icon.svg" alt="comments" />
+                                    <img src="./assets/msg-icon.svg" alt="comments" />
                                     <span>${randomNumber(38, 90)}</span>
                                 </div>
                                 <div class="eye">
-                                    <img src="/assets/eye-icon.svg" alt="eye" />
+                                    <img src="./assets/eye-icon.svg" alt="eye" />
                                     <span> ${randomNumber(1, 7)}k</span>
                                 </div>
                             </div>`;

@@ -48,7 +48,7 @@ body {
 
 .header {
     height: 415px;
-    background: url(/assets/header-bg.png) no-repeat center center;
+    background: url(./assets/header-bg.png) no-repeat center center;
 }
 
 .search-container {
